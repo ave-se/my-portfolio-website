@@ -24,7 +24,7 @@ export const projects = [
     title: "DALL-E Clone",
     description: "Under Construction",
     image: "/images/7.jpeg",
-    tags: ["Vite React"],
+    tags: ["Vite React", "Javascript"],
     source: "",
     visit: "",
     id: 2,
