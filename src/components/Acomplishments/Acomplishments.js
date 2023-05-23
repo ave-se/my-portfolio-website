@@ -1,46 +1,43 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-import { motion, useAnimation } from "framer-motion";
-import {
-  Section,
-  SectionDivider,
-  SectionTitle,
-} from "../../styles/GlobalComponents";
+import { gsap } from "gsap";
+import { motion } from "@animated";
+import { Section, SectionTitle } from "../../styles/GlobalComponents";
 import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 import { data } from "../../constants/constants";
 
-const AnimatedBox = motion(Box);
-
 const Acomplishments = () => {
-  const controls = useAnimation();
   const [ref, inView] = useInView({
     triggerOnce: true,
   });
 
   useEffect(() => {
     if (inView) {
-      controls.start("visible");
+      gsap.to(".animated-box", {
+        opacity: 1,
+        y: 0,
+        duration: 0.6,
+        delay: 0.2,
+        stagger: 0.2,
+      });
     }
-  }, [controls, inView]);
+  }, [inView]);
 
   return (
     <Section>
       <SectionTitle>Personal Accomplishments</SectionTitle>
       <Boxes ref={ref}>
         {data.map((card, index) => (
-          <AnimatedBox
+          <motion.div
+            className="animated-box"
             key={index}
-            initial="hidden"
-            animate={controls}
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: index * 0.2 }}
-            variants={{
-              visible: { opacity: 1, y: 0 },
-              hidden: { opacity: 0, y: 50 },
-            }}
           >
             <BoxNum>{card.number}+</BoxNum>
             <BoxText>{card.text}</BoxText>
-          </AnimatedBox>
+          </motion.div>
         ))}
       </Boxes>
     </Section>
