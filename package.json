@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "react-scripts start"
   },
   "dependencies": {
     "@netlify/plugin-nextjs": "^4.36.1",
