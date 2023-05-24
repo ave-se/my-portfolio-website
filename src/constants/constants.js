@@ -14,7 +14,7 @@ export const projects = [
     title: "MERN Todo App",
     description:
       "Full-stack todo app made with React, Node.js, Restful APIs and connected to a PostGres database. Featuring client side and server side functionalities. Hosted by Netlify",
-    image: "/images/7.jpeg",
+    image: "/images/5.png",
     tags: ["React", "Node.js", "Express", "MongoDB"],
     source: "https://github.com/ave-se/mern-todo-app.git",
     visit: "",
