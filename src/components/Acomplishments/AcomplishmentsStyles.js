@@ -45,24 +45,6 @@ export const Box = styled.div`
     }
   }
 `;
-export const BoxNum = styled.h5`
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 40px;
-  letter-spacing: 0.01em;
-  color: #ffffff;
-  margin-bottom: 8px;
-
-  @media ${(props) => props.theme.breakpoints.md} {
-    font-size: 28px;
-    line-height: 32px;
-  }
-  @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 24px;
-    line-height: 26px;
-  }
-`;
 
 export const BoxText = styled.p`
   font-style: normal;
@@ -131,3 +113,43 @@ export const IconContainer = styled.div`
     justify-content: space-between;
   }
 `;
+
+export const Section = styled.section`
+  padding: 10rem 2rem;
+
+  @media screen and (max-width: ${(props) => props.theme.responsive.small}) {
+    padding: 5rem 2rem;
+  }
+`;
+const SectionTitle = styled.h3`
+  font-size: clamp(48px, 6vw, 72px);
+  color: #fff;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+
+  @media screen and (max-width: ${(props) => props.theme.responsive.medium}) {
+    font-size: calc(${(props) => props.theme.fontSize.large} - 2px);
+    line-height: 1.2;
+  }
+`;
+const Divider = styled.div`
+  height: 2px;
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+`;
+function Acomplishments() {
+  return (
+    <>
+      <Section id="acomplishments">
+        <SectionTitle>Acomplish&shy;ments</SectionTitle>
+        <Divider />
+        {"bounce.out"}
+      </Section>
+    </>
+  );
+}
+export default Acomplishments;
