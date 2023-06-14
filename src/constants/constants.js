@@ -17,7 +17,7 @@ export const projects = [
     image: "/images/5.png",
     tags: ["React", "Node.js", "Express", "PostGres"],
     source: "https://github.com/ave-se/mern-todo-app.git",
-    visit: "",
+    visit: "https://frabjous-travesseiro-382885.netlify.app/",
     id: 1,
   },
   {
