@@ -10,7 +10,7 @@
   "dependencies": {
     "@netlify/plugin-nextjs": "^4.36.1",
     "gsap": "^3.11.5",
-    "next": "^13.4.1",
+    "next": "^13.4.13",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
