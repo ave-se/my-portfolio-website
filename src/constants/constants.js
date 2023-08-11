@@ -13,11 +13,11 @@ export const projects = [
   {
     title: "MERN Todo App",
     description:
-      "Full-stack todo app made with React, Node.js, Restful APIs and connected to a PostGres database. Featuring client side and server side functionalities. Hosted by Netlify",
+      "Full-stack todo app made with React, Node.js, Restful APIs and connected to a MongoDB database. Featuring client side and server side functionalities. Hosted by Netlify",
     image: "/images/5.png",
     tags: ["React", "Node.js", "Express", "PostGres"],
     source: "https://github.com/ave-se/mern-todo-app.git",
-    visit: "https://frabjous-travesseiro-382885.netlify.app/",
+    visit: "",
     id: 1,
   },
   {
