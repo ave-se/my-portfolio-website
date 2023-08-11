@@ -15,9 +15,10 @@ export const projects = [
     description:
       "Full-stack todo app made with React, Node.js, Restful APIs and connected to a MongoDB database. Featuring client side and server side functionalities. Hosted by Netlify",
     image: "/images/5.png",
-    tags: ["React", "Node.js", "Express", "PostGres"],
-    source: "https://github.com/ave-se/mern-todo-app.git",
-    visit: "",
+    tags: ["React", "Node.js", "Express", "MongoDB"],
+    source: "https://github.com/ave-se/fullstack-todo-app",
+    visit:
+      "https://64d3a3976bb69074134d3617--relaxed-sunburst-6a3505.netlify.app/",
     id: 1,
   },
   {
