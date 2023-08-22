@@ -11,6 +11,11 @@
 # next.js
 /.next/
 
+
+# production
+
+
+
 # misc
 .DS_Store
 *.pem

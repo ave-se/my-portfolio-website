@@ -11,6 +11,17 @@ export const projects = [
   },
 
   {
+    title: "Immersive 3D Project",
+    description:
+      "Immersive web experience project that combines audiovisual storytelling, motion and animation, audio, 3D graphics, and creative 2D graphics.",
+    tags: ["GSAP", "Three.js", "CSS"],
+    image: "/images/4.png",
+    source: "https://github.com/ave-se/Immersive-3D-Website",
+    visit: "https://bridgertonqueencharlotte.netlify.app/",
+    id: 3,
+  },
+
+  {
     title: "MERN Todo App",
     description:
       "Full-stack todo app made with React, Node.js, Restful APIs and connected to a MongoDB database. Featuring client side and server side functionalities. Hosted by Netlify",
@@ -30,6 +41,7 @@ export const projects = [
     visit: "",
     id: 2,
   },
+
   {
     title: "This Portfolio Website",
     tags: ["React", "Javascript", "Hostinger"],

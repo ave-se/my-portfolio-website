@@ -36,7 +36,8 @@ const Technologies = () => (
             HTML <br />
             CSS <br />
             Javascript <br />
-            React
+            React <br />
+            Three.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -46,7 +47,8 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js and Databases
+            Node.js <br />
+            MongoDB
           </ListParagraph>
         </ListContainer>
       </ListItem>
