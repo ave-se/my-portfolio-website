@@ -33,12 +33,12 @@ export const projects = [
     id: 1,
   },
   {
-    title: "DALL-E Clone",
-    description: "Under Construction",
+    title: "WellNest App",
+    description: "A personal project I created that helps users find the best wellness hobbies and activities in their city",
     image: "/images/7.jpeg",
-    tags: ["Vite React", "Javascript", "Tailwind CSS"],
-    source: "https://github.com/ave-se/Dall-e_clone.git",
-    visit: "",
+    tags: ["Vue.js", "Vuex", "Firebase"],
+    source: "https://github.com/ave-se/WellNest-App",
+    visit: "https://66012d46beabdc8d839ee5d3--papaya-swan-60ef13.netlify.app/",
     id: 2,
   },
 
