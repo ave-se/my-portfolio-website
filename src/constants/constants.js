@@ -33,21 +33,21 @@ export const projects = [
     id: 1,
   },
   {
-    title: "WellNest App",
-    description: "A personal project I created that helps users find the best wellness hobbies and activities in their city",
+    title: "Psykoterapigruppen Orion",
+    description: " designed and developed a user-friendly web application for scheduling appointments. Leveraging React, I created a modern and responsive interface that streamlined the booking and management process for users.",
     image: "/images/7.jpeg",
-    tags: ["Vue.js", "Vuex", "Firebase"],
-    source: "https://github.com/ave-se/WellNest-App",
-    visit: "https://66012d46beabdc8d839ee5d3--papaya-swan-60ef13.netlify.app/",
+    tags: ["React, Git, Figma"],
+    visit: "https://psykoterapigruppenorion.se/",
     id: 2,
   },
 
   {
-    title: "This Portfolio Website",
-    tags: ["React", "Javascript", "Hostinger"],
+    title: "Nilo Collaborations",
+    description:
+      "At Nilo Collaborations, I played a key role in revamping the client's product interface. Using Figma for detailed prototyping, I spearheaded user research and testing initiatives to enhance the overall user experience.", 
     image: "/images/6.png",
-    source: "https://github.com/ave-se/my-portfolio-website.git",
-    visit: "https://agnescybilatsuah.com",
+    tags: ["React, Figma, Git"],
+    visit: "https://www.nilocollab.com/",
     id: 3,
   },
 ];
