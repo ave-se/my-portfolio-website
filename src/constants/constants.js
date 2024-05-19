@@ -52,6 +52,14 @@ export const projects = [
   },
 ];
 
+export const TimeLineData = [
+  { year: 2021, text: "Started and finished Shecodes foundation course" },
+  { year: 2022, text: "Applied to and was accepted into Hyper Island" },
+  { year: 2023, text: "Finished my first semester" },
+  { year: 2023, text: "Started my internship at Bannerboy" },
+  { year: 2024, text: "Graduated from Hyper Island" },
+  { year: 2024, text: "Started path to obtain Microsoft Azure Fundamentals AZ-900 certification" },
+];
 
 export const data = [
   { number: 1, text: "Hyper Island Frontend Developer Diploma" },
