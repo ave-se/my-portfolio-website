@@ -34,7 +34,7 @@ export const projects = [
   },
   {
     title: "Psykoterapigruppen Orion",
-    description: " designed and developed a user-friendly web application for scheduling appointments. Leveraging React, I created a modern and responsive interface that streamlined the booking and management process for users.",
+    description: "Designed and developed a user-friendly web application for scheduling appointments. Leveraging React, I created a modern and responsive interface that streamlined the booking and management process for users.",
     image: "/images/7.jpeg",
     tags: ["React, Git, Figma"],
     visit: "https://psykoterapigruppenorion.se/",
@@ -52,19 +52,14 @@ export const projects = [
   },
 ];
 
-export const TimeLineData = [
-  { year: 2021, text: "Started and finished Shecodes foundation course" },
-  { year: 2022, text: "Applied to and was accepted into Hyper Island" },
-  { year: 2023, text: "Finished my first semester" },
-  { year: 2023, text: "Ready for Internship!" },
-];
 
 export const data = [
-  { number: 1, text: "Shecodes Certificate" },
-  {
-    number: 2,
-    text: "Process and Design Facilitation Certificate",
-  },
-  { number: 3, text: "Certificate of Participation in Volvo Sprint" },
-  { number: 4, text: "LinkedIn's SEO Foundations Course" },
+  { number: 1, text: "Hyper Island Frontend Developer Diploma" },
+  { number: 2, text: "Hyper Island Scrum Master" },
+  { number: 3, text: "Hyper Island Process and Design Facilitation Certificate" },
+  { number: 4, text:  "Shecodes Plus Certificate"},
+  { number: 5, text: "Volvo Sprint Certificate" },
+  { number: 6, text: "LinkedIn's SEO Foundations Certificate" },
+  { number: 7, text: "Microsoft Azure Fundamentals AZ-900" },
+  
 ];

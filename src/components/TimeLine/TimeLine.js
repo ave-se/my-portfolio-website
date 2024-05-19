@@ -75,78 +75,10 @@ const Timeline = () => {
         an introductory online course by SheCodes. The magic of coding captured
         my heart and sparked a new passion within me. Driven by my curiosity, I
         joined Hyper Island's Frontend Developer course. The immersive learning
-        experience at Hyper Island has been incredible, and I am now eager to
-        kickstart my career as an intern at an awesome company. When I'm not
+        experience at Hyper Island has been incredible, and I have completed my internship as a Creative Developer at <a href="https://www.bannerboy.com/" target="_blank" rel="noopener noreferrer">Bannerboy AB</a> where I learned invaluable skills. When I'm not
         coding, you can find me lifting twice my bodyweight at the gym, gliding
-        on roller skates, or chasing after my two year old.{" "}
+        on roller skates, or traveling. {" "}
       </SectionText>
-      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
-        <>
-          {TimeLineData.map((item, index) => (
-            <CarouselMobileScrollNode
-              key={index}
-              final={index === TOTAL_CAROUSEL_COUNT - 1}
-            >
-              <CarouselItem
-                index={index}
-                id={`carousel__item-${index}`}
-                active={activeItem}
-                onClick={(e) => handleClick(e, index)}
-              >
-                <CarouselItemTitle>
-                  {item.year}
-                  <CarouselItemImg
-                    width="208"
-                    height="6"
-                    viewBox="0 0 208 6"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M2.5 5.5C3.88071 5.5 5 4.38071 5 3V3.5L208 3.50002V2.50002L5 2.5V3C5 1.61929 3.88071 0.5 2.5 0.5C1.11929 0.5 0 1.61929 0 3C0 4.38071 1.11929 5.5 2.5 5.5Z"
-                      fill="url(#paint0_linear)"
-                      fill-opacity="0.33"
-                    />
-                    <defs>
-                      <linearGradient
-                        id="paint0_linear"
-                        x1="-4.30412e-10"
-                        y1="0.5"
-                        x2="208"
-                        y2="0.500295"
-                        gradientUnits="userSpaceOnUse"
-                      >
-                        <stop stop-color="white" />
-                        <stop
-                          offset="0.79478"
-                          stop-color="white"
-                          stop-opacity="0"
-                        />
-                      </linearGradient>
-                    </defs>
-                  </CarouselItemImg>
-                </CarouselItemTitle>
-                <CarouselItemText>{item.text}</CarouselItemText>
-              </CarouselItem>
-            </CarouselMobileScrollNode>
-          ))}
-        </>
-      </CarouselContainer>
-      <CarouselButtons>
-        {TimeLineData.map((item, index) => (
-          <CarouselButton
-            key={index}
-            index={index}
-            active={activeItem}
-            onClick={(e) => handleClick(e, index)}
-            type="button"
-          >
-            <CarouselButtonDot active={activeItem} />
-          </CarouselButton>
-        ))}
-      </CarouselButtons>
       <SectionDivider />
     </Section>
   );

@@ -21,22 +21,27 @@ const Technologies = () => (
     <br />
     <SectionTitle> Technologies</SectionTitle>
     <SectionText>
-      As a student at Hyper Island, I've gained proficiency in programming
+      As a frontend developer graduate of Hyper Island, I've gained proficiency in programming
       languages while developing essential soft skills in communication,
       collaboration, user-centered design, adaptability, problem-solving, and
       human-centered thinking.
+  During my 6-month internship at Bannerboy AB, I contributed to building user interfaces, managing back-end tasks, and creating interactive 3D graphics. This experience enhanced my technical skills and design proficiency. With valuable mentorship, I overcame performance and project management challenges, driving my passion for creative and immersive web development.
+     
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="3rem" />
+        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+          <DiReact size="3rem" />
+        </a>
         <ListContainer>
           <ListTitle> Front-end</ListTitle>
           <ListParagraph>
             Experience with <br />
-            HTML <br />
+            HTML3 <br />
             CSS <br />
+            SASS/LESS <br />
             Javascript <br />
-            React <br />
+            React
             Three.js
           </ListParagraph>
         </ListContainer>
@@ -48,6 +53,7 @@ const Technologies = () => (
           <ListParagraph>
             Experience with <br />
             Node.js <br />
+            Express.js <br />
             MongoDB
           </ListParagraph>
         </ListContainer>
@@ -57,6 +63,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
+            Adobe Photoshop <br />
             Figma <br />
             Miro
           </ListParagraph>
