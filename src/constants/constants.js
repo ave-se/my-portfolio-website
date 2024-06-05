@@ -9,9 +9,9 @@ export const projects = [
       "https://66602323d4c47ed5e5bd7ecf--singular-griffin-46f495.netlify.app/",
       "https://666024094f2a36d85ff9c016--eclectic-sopapillas-0ee39a.netlify.app/",
       "https://666029df86974fdc408296fc--unique-cat-52a4ba.netlify.app/",
-      "https://66602a13b58c8fdd9fbc8e88--frolicking-griffin-e6bc1f.netlify.app/"
+      "https://66602a13b58c8fdd9fbc8e88--frolicking-griffin-e6bc1f.netlify.app/",
       "https://66602a53d4c47edcd1bd775e--tiny-mousse-56d921.netlify.app/",
-      "https://66602a7d59ade4dd836ac0b3--thriving-queijadas-7d2b7b.netlify.app/"
+      "https://66602a7d59ade4dd836ac0b3--thriving-queijadas-7d2b7b.netlify.app/",
     ],
     id: 6,
   },
