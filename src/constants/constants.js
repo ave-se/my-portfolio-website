@@ -6,17 +6,18 @@ export const projects = [
     image: "/images/9.png",
     tags: ["HTML5", "CSS3", "Javascript", "React.js", "Adobe PS", "Figma" ],
     visit: [
-      "https://66602323d4c47ed5e5bd7ecf--singular-griffin-46f495.netlify.app/",
-      "https://666024094f2a36d85ff9c016--eclectic-sopapillas-0ee39a.netlify.app/",
-      "https://66602bf24f2a36dfb1f9bc17--elegant-manatee-ef51e6.netlify.app/",
-      "https://666029df86974fdc408296fc--unique-cat-52a4ba.netlify.app/",
-      "https://66602a13b58c8fdd9fbc8e88--frolicking-griffin-e6bc1f.netlify.app/",
-      "https://66602a53d4c47edcd1bd775e--tiny-mousse-56d921.netlify.app/",
-      "https://66602a7d59ade4dd836ac0b3--thriving-queijadas-7d2b7b.netlify.app/",
-      "https://66602b5565b68ae0f6dd9197--candid-phoenix-8e3f5c.netlify.app/"
+      { title: "1", url: "https://66602323d4c47ed5e5bd7ecf--singular-griffin-46f495.netlify.app/" },
+      { title: "2", url: "https://666024094f2a36d85ff9c016--eclectic-sopapillas-0ee39a.netlify.app/" },
+      { title: "3", url: "https://66602bf24f2a36dfb1f9bc17--elegant-manatee-ef51e6.netlify.app/" },
+      { title: "4", url: "https://666029df86974fdc408296fc--unique-cat-52a4ba.netlify.app/" },
+      { title: "5", url: "https://66602a13b58c8fdd9fbc8e88--frolicking-griffin-e6bc1f.netlify.app/" },
+      { title: "6", url: "https://66602a53d4c47edcd1bd775e--tiny-mousse-56d921.netlify.app/" },
+      { title: "7", url: "https://66602a7d59ade4dd836ac0b3--thriving-queijadas-7d2b7b.netlify.app/" },
+      { title: "8", url: "https://66602b5565b68ae0f6dd9197--candid-phoenix-8e3f5c.netlify.app/" }
     ],
-    id: 6,
+    id: 0,
   },
+
   {
     title: "Flag Game",
     description:
@@ -25,7 +26,7 @@ export const projects = [
     tags: ["Javascript", "CSS", "HTML"],
     source: "https://github.com/ave-se/Flag-game.git",
     visit: ["https://storied-creponne-a993e1.netlify.app"],
-    id: 0,
+    id: 1,
   },
 
   {
@@ -36,7 +37,7 @@ export const projects = [
     image: "/images/4.png",
     source: "https://github.com/ave-se/Immersive-3D-Website",
     visit: ["https://bridgertonqueencharlotte.netlify.app/"],
-    id: 1,
+    id: 2,
   },
 
   /*

@@ -44,16 +44,30 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              {Array.isArray(visit) ? visit.map((link, index) => (
-                <ExternalLinks key={index} href={link} target="_blank">
-                  Visit{index + 1}
-                </ExternalLinks>
-              )) : console.error('visit is not an array')}
-              {source && source !== "" && (
-                <ExternalLinks href={source} target="_blank">
-                  Code
-                </ExternalLinks>
-              )}
+            <div className="project-links-container">
+                {Array.isArray(visit) ? visit.map((item, index) => {
+                  if (typeof item === 'string') {
+                    // Old format: `visit` is an array of strings
+                    return (
+                      <ExternalLinks key={index} href={item} target="_blank">
+                       {title === "Internship Projects" ? "Visit " + (index + 1) : "Visit"}
+                      </ExternalLinks>
+                    );
+                  } else if (typeof item === 'object') {
+                    // New format: `visit` is an array of objects
+                    return (
+                      <ExternalLinks noWrap key={index} href={item.url} target="_blank">
+                        {title === "Internship Training Projects" ? index + 1 : "Visit"}
+                      </ExternalLinks>
+                    );
+                  }
+                }) : console.error('visit is not an array')}
+                {source && source !== "" && (
+                    <ExternalLinks href={source} target="_blank">
+                        Code
+                    </ExternalLinks>
+                )}
+            </div>
             </UtilityList>
           </BlogCard>
         )

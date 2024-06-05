@@ -86,9 +86,13 @@ export const ExternalLinks = styled.a`
   color: #4d2b63;
   font-size: 1.6rem;
   padding: 1rem 1.5rem;
-
   background: #d4c0c0;
   text-decoration: underline;
+  white-space: ${({ noWrap }) => noWrap ? 'nowrap' : 'normal'};
+  overflow: ${({ noWrap }) => noWrap ? 'hidden' : 'visible'};
+  text-overflow: ${({ noWrap }) => noWrap ? 'ellipsis' : 'clip'};
+  margin-right: 10px; /* Add this line */
+
   &:hover {
     background: ${({ alt }) =>
       alt
