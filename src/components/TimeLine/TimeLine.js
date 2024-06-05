@@ -75,7 +75,7 @@ const Timeline = () => {
         an introductory online course by SheCodes. The magic of coding captured
         my heart and sparked a new passion within me. Driven by my curiosity, I
         joined Hyper Island's Frontend Developer course. The immersive learning
-        experience at Hyper Island has been incredible, and I have completed my internship as a Creative Developer at <a href="https://www.bannerboy.com/" target="_blank" rel="noopener noreferrer">Bannerboy AB</a> where I learned invaluable skills. When I'm not
+        experience at Hyper Island has been incredible, and I have completed my internship as a Creative Developer at Bannerboy AB where I learned invaluable skills. When I'm not
         coding, you can find me lifting twice my bodyweight at the gym, gliding
         on roller skates, or traveling. {" "}
       </SectionText>

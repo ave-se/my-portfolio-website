@@ -44,12 +44,16 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={visit} target="_blank">
-                Visit
-              </ExternalLinks>
-              <ExternalLinks href={source} target="_blank">
-                Code
-              </ExternalLinks>
+              {Array.isArray(visit) ? visit.map((link, index) => (
+                <ExternalLinks key={index} href={link} target="_blank">
+                  Visit{index + 1}
+                </ExternalLinks>
+              )) : console.error('visit is not an array')}
+              {source && source !== "" && (
+                <ExternalLinks href={source} target="_blank">
+                  Code
+                </ExternalLinks>
+              )}
             </UtilityList>
           </BlogCard>
         )

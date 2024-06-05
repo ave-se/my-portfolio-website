@@ -1,12 +1,28 @@
 export const projects = [
+  
+  {
+    title: "Internship Training Projects",
+    description: "During my internship at Bannerboy, I worked on a variety of training projects that involved creating interactive banners, animations, and other digital marketing materials.",
+    image: "/images/9.png",
+    tags: ["HTML5", "CSS3", "Javascript", "React.js", "Adobe PS", "Figma" ],
+    visit: [
+      "https://66602323d4c47ed5e5bd7ecf--singular-griffin-46f495.netlify.app/",
+      "https://666024094f2a36d85ff9c016--eclectic-sopapillas-0ee39a.netlify.app/",
+      "https://666029df86974fdc408296fc--unique-cat-52a4ba.netlify.app/",
+      "https://66602a13b58c8fdd9fbc8e88--frolicking-griffin-e6bc1f.netlify.app/"
+      "https://66602a53d4c47edcd1bd775e--tiny-mousse-56d921.netlify.app/",
+      "https://66602a7d59ade4dd836ac0b3--thriving-queijadas-7d2b7b.netlify.app/"
+    ],
+    id: 6,
+  },
   {
     title: "Flag Game",
     description:
-      "This country flag guessing game utilizes HTML, CSS, JavaScript, and RESTful APIs to create an immersive and educational experience where players can test their knowledge of flags from around the world.",
+      "*Disclaimer: Give the game a second to load as the API is a bit slow* This country flag guessing game utilizes HTML, CSS, JavaScript, and RESTful APIs to create an immersive and educational experience where players can test their knowledge of flags from around the world.",
     image: "/images/1.png",
     tags: ["Javascript", "CSS", "HTML"],
     source: "https://github.com/ave-se/Flag-game.git",
-    visit: "https://storied-creponne-a993e1.netlify.app",
+    visit: ["https://storied-creponne-a993e1.netlify.app"],
     id: 0,
   },
 
@@ -17,10 +33,11 @@ export const projects = [
     tags: ["GSAP", "Three.js", "CSS"],
     image: "/images/4.png",
     source: "https://github.com/ave-se/Immersive-3D-Website",
-    visit: "https://bridgertonqueencharlotte.netlify.app/",
-    id: 3,
+    visit: ["https://bridgertonqueencharlotte.netlify.app/"],
+    id: 1,
   },
 
+  /*
   {
     title: "MERN Todo App",
     description:
@@ -30,15 +47,16 @@ export const projects = [
     source: "https://github.com/ave-se/fullstack-todo-app",
     visit:
       "https://64d3a3976bb69074134d3617--relaxed-sunburst-6a3505.netlify.app/",
-    id: 1,
+    id: 2,
   },
+  */
   {
     title: "Psykoterapigruppen Orion",
     description: "Designed and developed a user-friendly web application for scheduling appointments. Leveraging React, I created a modern and responsive interface that streamlined the booking and management process for users.",
     image: "/images/7.jpeg",
     tags: ["React, Git, Figma"],
-    visit: "https://psykoterapigruppenorion.se/",
-    id: 2,
+    visit: ["https://psykoterapigruppenorion.se/"],
+    id: 3,
   },
 
   {
@@ -47,9 +65,21 @@ export const projects = [
       "At Nilo Collaborations, I played a key role in revamping the client's product interface. Using Figma for detailed prototyping, I spearheaded user research and testing initiatives to enhance the overall user experience.", 
     image: "/images/6.png",
     tags: ["React, Figma, Git"],
-    visit: "https://www.nilocollab.com/",
-    id: 3,
+    visit: ["https://www.nilocollab.com/"],
+    id: 4,
   },
+  {
+    title: "Ecommerce Website",
+    description: "Ongoing development of a multiple component responsive ecommerce website designed to be user-friendly and visually appealing.It will include a shopping cart, product pages, and a checkout page.",
+    image: "/images/8.png",
+    tags: ["React, Context API, JavaScript, Node.js, CSS, HTML"],
+    source: "https://github.com/ave-se/ecommerce-app",
+    visit: ["https://665308338877865098eb1081--bespoke-gingersnap-06ac8f.netlify.app/" ],
+    id: 5,
+  },
+
+ 
+
 ];
 
 export const TimeLineData = [

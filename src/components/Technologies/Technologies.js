@@ -21,10 +21,8 @@ const Technologies = () => (
     <br />
     <SectionTitle> Technologies</SectionTitle>
     <SectionText>
-      As a frontend developer graduate of Hyper Island, I've gained proficiency in programming
-      languages while developing essential soft skills in communication,
-      collaboration, user-centered design, adaptability, problem-solving, and
-      human-centered thinking.
+      As a frontend developer graduate of Hyper Island, I've gained proficiency in programming languages while developing essential soft skills in communication,
+      collaboration, user-centered design, adaptability, problem-solving, and human-centered thinking.
   During my 6-month internship at Bannerboy AB, I contributed to building user interfaces, managing back-end tasks, and creating interactive 3D graphics. This experience enhanced my technical skills and design proficiency. With valuable mentorship, I overcame performance and project management challenges, driving my passion for creative and immersive web development.
      
     </SectionText>

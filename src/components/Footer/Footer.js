@@ -21,8 +21,7 @@ const Footer = () => {
         <LinkColumn>
           <LinkTitle>Get in touch</LinkTitle>
           <LinkItem href="mailto:contact@agnescybilatsuah.com">
-         
-          </LinkItem>
+         </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>

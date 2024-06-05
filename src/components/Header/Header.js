@@ -56,9 +56,6 @@ const Header = () => (
       >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://instagram.com/codeliftslay" target="_blank">
-        <AiFillInstagram size="3rem" />
-      </SocialIcons>
     </Div3>
   </Container>
 );
